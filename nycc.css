@@ -1,12 +1,23 @@
-body {
-  font-family: Futura, sans-serif;
-  background-color: #f2f2f2;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-h1 {
-  color: #000000;
+.banner {
+    background-image: url("https://github.com/gmlegrice/DPI-Prac/blob/0e2375d946831b614140c60ed8aa8a1a64fe3f3f/DPIBanner-Opaque.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+    width: 100%;
 }
 
-p {
-  font-size: 24px;
+.banner-text {
+    text-align: center;
+    padding: 20px;
+    color: #000000; 
+    font-size: 24px;
+    font-family: Futura, sans-serif; 
+   font-weight: bold;
 }
